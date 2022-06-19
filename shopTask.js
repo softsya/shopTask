@@ -4,7 +4,7 @@ const items = [
   {
     id: '01',
     name: 'Radiohead - A Moon Shaped Pool',
-    description: `A Moon Shaped Pool is the ninth studio album by English rock band Radiohead. It was released digitally on 8 May 2016 and was named one of the best albums of the year and decade by many publications.`,
+    description: `The ninth studio album by Radiohead. It was released on 8 May 2016 and was named one of the best albums of the year and decade by many publications.`,
     price: 39,
     image: 'https://e7.pngegg.com/pngimages/352/588/png-clipart-a-moon-shaped-pool-compact-disc-radiohead-ok-computer-xl-recordings-radiohead-television-album.png',
   },
@@ -18,14 +18,14 @@ const items = [
   {
     id: '03',
     name: 'Stepan Giga - Gold Collection',
-    description: `Golden songs collection of the Ukrainian pop singer (tenor), composer, National Artist of Ukraine, member of the National League of Ukrainian Composers Stepan Giga`,
+    description: `Hits of the Ukrainian pop singer, composer, National Artist of Ukraine, member of the National League of Ukrainian Composers Stepan Giga.`,
     price: 49,
     image: 'https://promoter-production-images.s3.amazonaws.com/uploads/event/new_promo_image/4550/450x450.jpg',
   },
   {
     id: '04',
     name: 'MØL - Diorama',
-    description: `MØL perfectly and expertly blend black metal and shoegaze with utter ease, so much so they give icons like Deafheaven and Alcest a run for their money.`,
+    description: `Perfect and expert blend black metal and shoegaze with utter ease by MØL.`,
     price: 25,
     image: 'https://imagescdn.juno.co.uk/full/CS846110-01A-BIG.jpg',
   }
