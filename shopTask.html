@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinyl shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,500;1,100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="container"></div>
+<script src="shopTask.js"></script>
+<script>         
+  // Get HTML head element
+  const head = document.getElementsByTagName('HEAD')[0];
+  // Create new link Element
+  const link = document.createElement('link');
+  // set the attributes for link element
+  link.rel = 'stylesheet';
+  link.href = 'shopTask.css';
+  // Append link element to HTML head
+  head.appendChild(link);
+</script>
+</body>
+</html>

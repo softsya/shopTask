@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px 280px 40px 280px;
+  background-color: white;
+}
+
+#container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#submitOrder {
+  padding-left: 20px;
+  color: #15181A;
+  font-size: 23px;
+  font-weight: initial;
+  font-family: 'Archivo', sans-serif;
+}
+
+.itemBox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 45px;
+  border-radius: 25px;
+}
+
+.itemBox:hover {
+  background-color: #F9F5F5;
+  opacity: 1;
+  border: none;
+}
+
+.itemName {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  padding-bottom: 10px;
+  color: #15181A;
+  font-size: 23px;
+  font-family: 'Archivo', sans-serif;
+}
+
+.itemPic {
+ align-self: center;
+ margin-right: 15px;
+}
+
+.itemDescription {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  padding-left: 15px;
+  align-self: center;
+  text-align: right;
+  color: #15181A;
+  font-weight: 400;
+  font-size: medium;
+  font-style: normal;
+  line-height: 3ex;
+  font-family: 'Archivo', sans-serif;
+}
+
+.counterBox {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 40px;
+  margin-right: 25px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.counterButton {
+  align-self: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 20%;
+  background-color: #15181A;
+  color: white;
+  font-weight: 600;
+  font-size: smaller;
+  font-family: 'Archivo', sans-serif;
+  transition: 0.3s;
+}
+
+.counterButton:hover {
+  background-color: #5D5C5D;
+  opacity: 1;
+  border: none;
+}
+
+.counterValue {
+  align-self: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #15181A;
+  font-weight: 600;
+  font-size: medium;
+  font-family: 'Archivo', sans-serif;
+}
+
+.itemPrice {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  padding-right: 25px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  color: #15181A;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Archivo', sans-serif;
+}
+
+#bottomWrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+  padding-right: 20px;
+  border-top: 1px dashed #15181A;
+}
+
+#sumText {
+  align-self: center;
+  padding-right: 15px;
+  color: #15181A;
+  font-size: 23px;
+  font-weight: initial;
+  font-family: 'Archivo', sans-serif;
+}
+
+#totalPrice {
+  align-self: center;
+  padding-right: 60px;
+  color: #15181A;
+  font-size: 23px;
+  font-family: 'Archivo', sans-serif;
+}
+
+.buy {
+  align-self: center;
+  width: 70px;
+  height: 50px;
+  background-color: #15181A;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Archivo', sans-serif;
+  transition: 0.3s;
+}
+
+.buy:hover {
+  background-color: #5D5C5D;
+  opacity: 1;
+  border: none;
+}
